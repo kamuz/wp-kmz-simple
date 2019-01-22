@@ -12,3 +12,6 @@
  * Text Domain: kmz-simple
  * Domain Path: /languages
 */
+
+include_once(plugin_dir_path(__FILE__) . '/action-hook.php');
+include_once(plugin_dir_path(__FILE__) . '/filter-hook.php');
